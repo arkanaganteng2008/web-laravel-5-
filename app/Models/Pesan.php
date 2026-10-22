@@ -1,0 +1,12 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Pesan extends Model
+{
+    protected $table = 'pesan';
+    public $timestamps = false;
+    protected $fillable = ['nama', 'email', 'isi_pesan'];
+}
